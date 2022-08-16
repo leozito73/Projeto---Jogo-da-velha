@@ -1,0 +1,35 @@
+body {
+    font-family:Courier;   
+}
+
+h2{
+    margin-top: -8px;
+    text-align: center;
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 240px;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: rgb(197, 9, 9);
+    border: 3px solid black;
+}
+
+.grid {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+}
+
+.celula {
+    width: 75px;
+    height: 65px;
+    font-size: 30pt;
+    margin: 4px 2px;
+    font-weight: 300pt;
+    padding-top: 10px;
+    border-radius: 4px;
+    text-align: center;
+    background-color: rgb(39, 42, 42);
+}
