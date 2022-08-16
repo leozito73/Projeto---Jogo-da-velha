@@ -2,9 +2,20 @@ body {
     font-family:Courier;   
 }
 
-h2{
+h2, h3 {
     margin-top: -8px;
     text-align: center;
+}
+
+#tela-escura {
+    width: 100%;
+    height: 100%;
+    opacity: 0.95;
+    color:white;
+    display:none;
+    padding: top 20px;;
+    position:absolute;
+    background:black;
 }
 
 .container {
@@ -13,7 +24,7 @@ h2{
     padding: 20px;
     border-radius: 10px;
     background-color: rgb(197, 9, 9);
-    border: 3px solid black;
+    border: 2px solid black;
 }
 
 .grid {
@@ -25,7 +36,7 @@ h2{
 .celula {
     width: 75px;
     height: 65px;
-    font-size: 30pt;
+    font-size: 35pt;
     margin: 4px 2px;
     font-weight: 300pt;
     padding-top: 10px;
